@@ -1,4 +1,24 @@
 First experiments with FastLED library and a led
 strip, using Hiletgo ESP32 and Arduino IDE
 
+IMPORTANT:
+
+In Arduino IDE use Board Manager to select "ESP Dev Module".  There is
+no 'board' called Hiletgo, it's just part of a collection of dozens
+of similar generic ESP32 boards.
+
+To find port on my mac:
+
+ls /dev/tty* 
+
+Make sure to use a USB cable with data lines.
+
+To confirm that, do the following:
+
+- unplug usb cable
+- do /dev/tty*|wc -l and note the output e.g 123
+- plug in cable
+- repeat above ls command
+- if cable is suitable, the count will increment by 1 e.g. to 124
+
 
