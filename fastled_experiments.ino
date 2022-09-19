@@ -1,6 +1,8 @@
 #include "FastLED.h"
 
 //FIXED GLOBAL VARS
+// foo
+
 #define DATA_PIN 4        //Define led data pin, has to support PWM
 #define LED_TYPE NEOPIXEL  //define type of led
 #define NUM_LEDS 30        //num of leds in strip
